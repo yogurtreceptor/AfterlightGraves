@@ -1,0 +1,16 @@
+name: AfterlightGraves
+version: 1.0.0
+main: io.github.yogurtreceptor.afterlightgraves.AfterlightGravesPlugin
+api-version: '26.3'
+description: Durable, shared-access graves with full XP recovery
+author: yogurtreceptor
+website: https://github.com/yogurtreceptor/AfterlightGraves
+commands:
+  graves:
+    description: List your graves
+    usage: /graves
+    permission: afterlightgraves.graves
+permissions:
+  afterlightgraves.graves:
+    description: Allows a player to list their own graves
+    default: true
